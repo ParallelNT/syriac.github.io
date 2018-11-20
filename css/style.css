@@ -1,0 +1,95 @@
+/*!
+ * Start Bootstrap - Scrolling Nav (https://startbootstrap.com/template-overviews/scrolling-nav)
+ * Copyright 2013-2017 Start Bootstrap
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-scrolling-nav/blob/master/LICENSE)
+ */
+@import url(https://fonts.googleapis.com/css?family=Raleway);
+
+/*ARTICLES*/
+.portfolio-item {
+  margin-bottom: 30px;
+}
+
+.pagination {
+  margin-bottom: 30px;
+}
+/*END OF ARTICLE*/
+
+/*EMAIL SUBMIT*/
+.footerEmail{
+	background: #484d53;
+	padding: 40px 0;
+}
+
+label {
+  display:block;
+  text-align:center;
+  font-size:32px;
+  font-weight:700;
+  margin-bottom:30px;
+  color:#fff;
+  font-family: 'Raleway', sans-serif;
+}
+input[type="email"] {
+  display:block;
+  width:40%;
+  font-size:18px;
+  margin:0 auto 20px auto;
+  border:none;
+  outline:none;
+  padding:20px;
+  text-align:center;
+  box-shadow: 0 1px 3px 0 #c2c2c2 inset;
+
+}
+
+@media (max-width: 992px) {
+	input[type="email"] {
+	  width: 90%;
+	}
+}
+
+input[type="submit"] {
+  display:block;
+  width:40%;
+  margin:0 auto;
+  padding:20px;
+  border:none;
+  outline:none;
+  background:#2ECC71;
+  font-size:18px;
+  color:#fff;
+  box-shadow:4px 6px 10px -4px rgba(0,0,0,1.0), 0 1px 1px -1px rgba(255,255,255,0.3);
+  cursor:pointer;
+}
+
+input[type="submit"]:active{ 
+box-shadow:0px 0px 0px 0px rgba(0,0,0,0.3), 0 1px 1px -1px rgba(255,255,255,0.3);
+} 
+
+input[type="submit"]:hover{
+
+}  
+
+@media (max-width: 992px) {
+	input[type="submit"] {
+	  width: 90%;
+	}
+}
+/*END OF EMAIL SUBMIT*/ 
+ 
+/*NAVBAR*/ 
+header {
+  padding: 154px 0 100px;
+}
+
+@media (min-width: 992px) {
+  header {
+    padding: 156px 0 100px;
+  }
+}
+
+section {
+  padding: 150px 0;
+}
+/*END OF NAVBAR*/ 
