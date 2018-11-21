@@ -12,11 +12,8 @@
 
 	<!--font awesome-->
 	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
-	
-    <!-- Bootstrap core CSS -->
-    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-
-    <!-- Custom styles for this template -->
+    
+    <!-- Bootstrap core CSS & Reg CSS -->
     <link href="css/style.css" rel="stylesheet">
   </head>
 
@@ -105,7 +102,7 @@
 	<!--mailing-->
     <section id="testimonials" class="footerEmail">
 		 		<form action="https://formspree.io/email@email.com" method="POST">
-				  <label for="email">Subscribe to our mailing list :)</label><br/>
+				  <label class="label4email" for="email">Subscribe to our mailing list :)</label><br/>
 				  <input type="email" value="" name="_replyto" placeholder="email address" required>
 				  <input type="submit" value="Submit" name="Submit">
 				</form>
@@ -119,36 +116,18 @@
       </div>
       <!-- /.container -->
     </footer>
-	</div>
 
 
     <!-- Bootstrap core JavaScript -->
-    <script src="vendor/jquery/jquery.min.js"></script>
-    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="js/jquery.min.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
 
     <!-- Plugin JavaScript -->
-    <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
+    <script src="js/jquery.easing.min.js"></script>
 
     <!-- Custom JavaScript for this theme -->
     <script src="js/scrolling-nav.js"></script>
-	
-	<script> 
-$(window).scroll(function(event){
-  	var scroll = $(window).scrollTop();
-    if (scroll >= 50) {
-        $(".go-top").addClass("show");
-    } else {
-        $(".go-top").removeClass("show");
-    }
-});
-
-$('a').click(function(){
-    $('html, body').animate({
-        scrollTop: $( $(this).attr('href') ).offset().top
-    }, 1000);
-});
-</script>
-
+	</div>
   </body>
 
 </html>
