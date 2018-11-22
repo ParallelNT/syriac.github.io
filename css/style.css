@@ -3,11 +3,8 @@
  * Copyright 2013-2017 Start Bootstrap
  * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-scrolling-nav/blob/master/LICENSE)
  */
-@import url(https://fonts.googleapis.com/css?family=Raleway);
 @import url(https://fonts.googleapis.com/css?family=Merriweather);
-
 /*IMGs TITLE carousel*/
-
 .carousel-padding{
 	padding: 55px 0 0px;
 }
@@ -73,7 +70,7 @@
   font-weight:700;
   margin-bottom:30px;
   color:#fff;
-  font-family: 'Raleway', sans-serif;
+  font-family: 'Merriweather', sans-serif;
 }
 input[type="email"] {
   display:block;
