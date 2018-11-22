@@ -4,6 +4,28 @@
  * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-scrolling-nav/blob/master/LICENSE)
  */
 @import url(https://fonts.googleapis.com/css?family=Raleway);
+@import url(https://fonts.googleapis.com/css?family=Merriweather);
+
+/*IMGs TITLE carousel*/
+
+.carousel-padding{
+	padding: 55px 0 0px;
+}
+
+.carousel-item {
+  height: 65vh;
+  min-height: 300px;
+  background: no-repeat center center scroll;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.blur{
+	  filter:blur(2px);
+}
+/*END OF IMGs TITLE carousel*/
 
 /*ARTICLES*/
 .portfolio-item {
