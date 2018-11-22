@@ -15,6 +15,8 @@
     
     <!-- Bootstrap core CSS & Reg CSS -->
     <link href="css/style.css" rel="stylesheet">
+	
+	 <script src="js/bootstrap.bundle.min.js"></script>
   </head>
 
   <body id="page-top">
@@ -134,15 +136,8 @@
     </section>
 
 	<!--mailing-->
-    <section id="testimonials" class="footerEmail">
-		 		<form action="https://formspree.io/email@email.com" method="POST">
-				  <label class="label4email" for="email">Subscribe to our mailing list :)</label><br/>
-				  <input type="email" value="" name="_replyto" placeholder="email address" required>
-				  <input type="submit" value="Submit" name="Submit">
-				</form>
-
-    </section>
-
+	<div html="emailSubscribeForm.html"></div> 
+	
     <!-- Footer -->
     <footer class="py-5 bg-dark">
       <div class="container">
@@ -151,7 +146,8 @@
       <!-- /.container -->
     </footer>
 
-
+	<!--html include-->
+	<script>HTML();</script>
     <!-- Bootstrap core JavaScript -->
     <script src="js/jquery.min.js"></script>
     <script src="js/bootstrap.bundle.min.js"></script>
