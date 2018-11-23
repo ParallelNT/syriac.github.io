@@ -4995,16 +4995,20 @@ input[type=submit].btn-block {
 
 .navbar-dark .navbar-brand:focus,
 .navbar-dark .navbar-brand:hover {
-	color: #fff
+	color: lightgray
 }
 
 .navbar-dark .navbar-nav .nav-link {
-	color: rgba(255, 255, 255, .5)
+	color: rgba(255, 255, 255, .5);
 }
 
 .navbar-dark .navbar-nav .nav-link:focus,
 .navbar-dark .navbar-nav .nav-link:hover {
-	color: rgba(255, 255, 255, .75)
+	color: rgba(255, 255, 255, .75);
+	border-radius:5px;
+	background-color: #484d53;
+	box-shadow: 0 1px 5px 0 black inset;
+	text-shadow: 3px 3px 6px black;
 }
 
 .navbar-dark .navbar-nav .nav-link.disabled {
