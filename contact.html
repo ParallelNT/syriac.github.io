@@ -8,31 +8,28 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>Title</title>
+    <title>Syriac Bible</title>
 
-	<!--font awesome-->
+	<!--Bootstrap core CSS & Reg CSS & font awesome-->
 	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
-    
-    <!-- Bootstrap core CSS & Reg CSS -->
     <link href="css/style.css" rel="stylesheet">
-
   </head>
 
-  <body>
+  <body class="contact-body">
     <div class="wrapper" id="myAnchor">
 	<a href="#myAnchor" class="go-top"><i class="fa fa-chevron-up"></i></a>
 
     <!-- Navigation -->
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
       <div class="container">
-        <a class="navbar-brand" href="index.html"><i class="fas fa-bible"></i> Title</a>
+        <a class="navbar-brand" href="index.html"><i class="fas fa-bible"></i> <b>Syriac</b> Bible</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarResponsive">
           <ul class="navbar-nav ml-auto">
             <li class="nav-item active">
-              <a class="nav-link" href="index.html">Home
+              <a class="nav-link" href="index.html"><i class="fas fa-home"></i> Home
                 <span class="sr-only">(current)</span>
               </a>
             </li>
@@ -40,29 +37,36 @@
               <a class="nav-link" href="articles.html">Articles</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="references.html">References</a>
+              <a class="nav-link" href="glossary.html">Glossary</a>
+            </li>
+			 <li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="goodnews.html">Good News</a>
             </li>
           </ul>
         </div>
       </div>
     </nav>
-<br/><br/>
     <!-- Page Content -->
-    <div class="container">
-	<br/><br/><br/>
-	<h2>Contact Page Under Construction...</h2>
-	
-    </div>
-	<!--mailing-->
-    <section id="testimonials" class="footerEmail">
-		 		<form action="https://formspree.io/email@email.com" method="POST">
-				  <label class="label4email" for="email">Subscribe to our mailing list :)</label><br/>
-				  <input type="email" value="" name="_replyto" placeholder="email address" required>
+	<section class="contact-title">
+      <div class="text-center">
+		<div class="black">
+			<h1>Contact Us <br/>__<i class="fas fa-pen-fancy"></i></h1><br/>
+			<p class="contact-description"> Don't hesitate we are waiting to hear from you!</p>
+		</div>
+      </div>
+    </section>
+    
+	<section class="contact-form">
+		 		<form action="https://formspree.io/syriacnewtestament@gmail.com" target="_blank" method="POST">
+				  <label class="invisible" for="email">This person has reached out to you. Sent from your contact page. :)</label><br/>
+				  <input type="name" value="" name="firstname" placeholder="Name" required>
+				  <input type="email" value="" name="email" placeholder="Email" required>
+				  <textarea class="contact-textarea" value="" name="message" maxlength="400" placeholder="Message" rows="10" cols="60" required></textarea>
+				  <br/>
 				  <input type="submit" value="Submit" name="Submit">
 				</form>
-    </section>
-
-	
+    </section>	
+    
     <!-- Footer -->
     <footer class="py-5 bg-dark">
       <div class="container">
@@ -71,10 +75,9 @@
       <!-- /.container -->
     </footer>
 
-	 <!-- Bootstrap core JavaScript -->
+	<!--js-->
     <script src="js/jquery.min.js"></script>
-    <script src="js/bootstrap.bundle.min.js"></script>
-	</div>
+	<script src="js/bootstrap.bundle.min.js"></script>
   </body>
 
 </html>
