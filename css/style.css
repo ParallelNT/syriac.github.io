@@ -6,6 +6,40 @@
 @import url(https://fonts.googleapis.com/css?family=Merriweather);
 @import url(https://use.fontawesome.com/releases/v5.5.0/css/all.css);
 
+.href-dec{
+	text-decoration: none;
+	color: #000000;
+}
+
+.href-dec:hover{
+	color: lightgray;
+}
+
+.align-center{
+	text-align: center;
+}
+
+.center-div{
+	position: relative;
+	top: 45%;
+    left: 57%;
+    transform: translate(-50%, -50%);
+}
+
+.sitemap-inline{
+	display: inline-block;
+	padding: 25px;
+}
+
+.indent{
+	margin-left:40px;
+}
+
+.indent2{
+	margin-left:80px;
+}
+
+/*PARAGRPH DIVIDER*/
 .black-line-fad{
 	width: 100%;
 	height: 2px;
@@ -16,7 +50,9 @@
 	display: inline-block;
 	color: black;
 	line-height: 0.0em;
+	line-width: 0.0em;
 	position: relative;
+	padding: -5px;
 	top: 57%;
     left: 50%;
 	text-align:center;
@@ -25,36 +61,20 @@
 	background-color: #fff;
 }
 
-#hr-text {
-  line-height: 1em;
-  position: relative;
-  outline: 0;
-  border: 0;
-  color: black;
-  text-align: center;
-  height: 1.5em;
-  opacity: .5;
+.absolute-text-cirlce{
+	display: inline-block;
+	position: relative;
+	top: 57%;
+    left: 50%;
+	text-align:center;
+    transform: translate(-50%, -50%);
+	color:#000000;
+	height: 30px;
+	width: 30px;
+	background-color: #fff;
+	border-radius: 100px;
 }
-#hr-text:before {
-  content: '';
-  background: linear-gradient(to right, transparent, #818078, transparent);
-  position: absolute;
-  left: 0;
-  top: 50%;
-  width: 100%;
-  height: 1px;
-}
-#hr-text:after {
-  content: '';
-  position: relative;
-  display: inline-block;
-  color: black;
-  padding: 0 .5em;
-  line-height: 1.5em;
-  color: #818078;
-  background-color: #fcfcfa;
-}
-
+/*END OF PARAGRPH DIVIDER*/
 
 /*WEBSITE DECORATION*/
 #web-color{
