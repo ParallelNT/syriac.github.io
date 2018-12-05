@@ -21,20 +21,10 @@
 
 .messenger-chat{
 	border:none;
-	height:500px;
+	height:700px;
 	width:100%;
 }
 
-.bible-plugin{
-	width:400; 
-	height:600;
-}
-
-.bible-plugin-div{
-	width:400; 
-	height:600;
-	background-color:lightgray;
-}
 /*END OF CONTACT PAGE*/
 
 /*DROP DOWN*/
