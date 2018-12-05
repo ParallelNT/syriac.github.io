@@ -30,15 +30,25 @@
         </button>
         <div class="collapse navbar-collapse" id="navbarResponsive">
           <ul class="navbar-nav ml-auto">
-            <li class="nav-item active">
-              <a class="nav-link" href="index.html"><i class="fas fa-home"></i> Home
-              <span class="sr-only">(current)</span></a>
+            <li class="nav-item">
+              <div class="dropdown">
+				  <button class="dropbtn"><a class="nav-link active" href="index.html"><i class="fas fa-home"></i> Home
+				  <span class="sr-only">(current)</span><i id="hidden-down" class="fas fa-caret-down"></i><i id="hidden-right" class="fas fa-caret-right"></i></a></button>
+				  <div class="dropdown-content">
+					<a href="#about">About Us</a>
+					<a href="#whatsnew">Whats New?</a>
+					<a href="#testimonials">Testimonials</a>
+				  </div>
+			  </div>
             </li>
             <li class="nav-item">
               <a class="nav-link js-scroll-trigger" href="articles.html"><i class="fas fa-newspaper"></i> Articles</a>
             </li>
             <li class="nav-item">
               <a class="nav-link js-scroll-trigger" href="glossary.html"><i class="fas fa-list-ul"></i> Glossary</a>
+            </li>
+			<li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="biography.html"><i class="fas fa-user"></i> Biography</a>
             </li>
 			<li class="nav-item">
               <a class="nav-link js-scroll-trigger" href="contact.html"><i class="fas fa-envelope"></i> Contact / IM</a>
@@ -50,16 +60,7 @@
         </div>
       </div>
     </nav>
-	<div class="black-line-fad" style="background-color:#343a40;"></div>
-	
-		<div class="id-navbar-line">
-			<tr class="id-navbar-dec">
-				<a href="#about" class="id-navbar-dec"><td># About</td></a>
-				<a href="#testimonials"class="id-navbar-dec"><td># Testimonials</td></a>
-			</tr>
-		</div>
 		
-	<div class="black-line"></div>
     <div class="carousel-padding">
       <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
         <ol class="carousel-indicators">
@@ -95,112 +96,6 @@
       </div>
     </div>
 
-	<div class="black-line"></div>
-	    <div id="verses" class="carousel-div">
-			<div class="small-carousel-verses">
-			  <div class="small-holder-verses">
-			  
-				<div class="small-div-verses">
-					<p><i>
-					The sting of death is sin, and<br/>
-					the power of sin is the law. <br/>
-					But thanks be to God! Who<br/>
-					gives us the victory through<br/>
-					our Lord Jesus Christ.
-					</i></p>
-					<p>
-					<b>1 Corinthians 15:56-57</b>
-					</p>
-				</div>
-				
-				<div class="small-div-verses">
-					<p><i>
-					For the LORD gives wisdom;<br/>
-					from His mouth come <br/>
-					knowledge and understanding.
-					<br/>
-					<br/>
-					<br/>
-					</i></p>
-					<p>
-					<b>Proverbs 2:6</b>
-					</p>
-				</div>
-				
-				<div class="small-div-verses">
-					<p><i>
-					Wisdom is with aged men,<br/>
-					with long life is <br/>
-					understanding.
-					<br/>
-					<br/>
-					<br/>
-					</i></p>
-					<p>
-					<b>Job 12:12</b>
-					</p>
-				</div>
-				
-				<div class="small-div-verses">
-					<p><i>
-					Teach me good discernment<br/>
-					and knowledge, for I believe <br/>
-					in your commandments.
-					<br/>
-					<br/>
-					<br/>
-					</i></p>
-					<p>
-					<b>Psalms 119:66</b>
-					</p>
-				</div>
-				
-				<div class="small-div-verses">
-					<p><i>
-					Jesus said to him, <br/>
-					"I am the way, and the truth,<br/>
-					andthe life; no one comes to<br/>
-					the Father but through me." 
-					<br/>
-					<br/>
-					</i></p>
-					<p>
-					<b>John 14:6-10</b>
-					</p>
-				</div>
-				
-				<div class="small-div-verses">
-					<p><i>
-					For I delight in loyalty rather<br/>
-					than sacrifice, and in the<br/>
-					knowledge of God rather than<br/>
-					burnt offerings.
-					<br/>
-					<br/>
-					</i></p>
-					<p>
-					<b>Hosea 6:6</b>
-					</p>
-				</div>
-				
-				<div class="small-div-verses">
-					<p><i>
-					Teach me good discernment<br/>
-					and knowledge, for I believe <br/>
-					in your commandments.
-					<br/>
-					<br/>
-					<br/>
-					</i></p>
-					<p>
-					<b>Psalms 119:66</b>
-					</p>
-				</div>
-					
-			  </div>
-			</div>
-    </div>
-	
 	<section id="about">
       <div class="container">
         <div class="row">
@@ -214,17 +109,80 @@
 
 	<div class="black-line-fad"><h4 class="absolute-text-div"><i class="fas fa-bible"></i></h4></div>
 	
-	<section id="about">
-      <div class="container">
-        <div class="row">
-          <div class="col-lg-8 mx-auto">
-            <h2>Whats New?</h2>
-            <p class="lead">Blogs go here maybe a news widget</p>
+	<br/>
+	<br/>
+	<div class="container">	
+	<div class="row" id="whatsnew">
+        <div class="col-sm-8">
+          <h2 class="mt-4">Whats New?</h2>
+          <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. A deserunt neque tempore recusandae animi soluta quasi? Asperiores rem dolore eaque vel, porro, soluta unde debitis aliquam laboriosam. Repellat explicabo, maiores!</p>
+          <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Omnis optio neque consectetur consequatur magni in nisi, natus beatae quidem quam odit commodi ducimus totam eum, alias, adipisci nesciunt voluptate. Voluptatum.</p>
+          <p>
+            <a class="btn btn-primary btn-lg" href="articles.html">Articles &raquo;</a>
+          </p>
+        </div>
+        <div class="col-sm-4">
+          <h2 class="mt-4">Contact Us</h2>
+          <address>
+            <strong>Start Bootstrap</strong>
+            <br>3481 Melrose Place
+            <br>Beverly Hills, CA 90210
+            <br>
+          </address>
+          <address>
+            <abbr title="Phone">P:</abbr>
+            (123) 456-7890
+            <br>
+            <abbr title="Email">E:</abbr>
+            <a class="special-title-color" href="contact.html#contact">SyriacNewTestament@gmail.com</a>
+          </address>
+		  <h2 class="mt-4">Messenger</h2>
+			<p class="lead">Want to:<br/><i class="fas fa-angle-right"></i> Chat instantly with like minded people? <br/><i class="fas fa-angle-right"></i> Share articles &amp; videos or other resources? <br/>Click <a class="special-title-color" href="contact.html#messenger">here</a>!</p>
+        </div>
+      </div>
+      <!-- /.row -->
+		<br/>
+		<br/>
+      <div class="row">
+        <div class="col-sm-4 my-4">
+          <div class="card">
+            <img class="card-img-top" src="http://placehold.it/300x200" alt="">
+            <div class="card-body">
+              <h4 class="card-title special-title-color">Card title</h4>
+              <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente esse necessitatibus neque sequi doloribus.</p>
+            </div>
+            <div class="card-footer">
+              <a href="#" class="btn btn-primary">Go!</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-4 my-4">
+          <div class="card">
+            <img class="card-img-top" src="http://placehold.it/300x200" alt="">
+            <div class="card-body">
+              <h4 class="card-title special-title-color">Card title</h4>
+              <p class="card-text">Sapienterfvdafvafvfvfv sfvesse necessitatibus neque sequi doloribus totam ut praesentium aut.</p>
+            </div>
+            <div class="card-footer">
+              <a href="#" class="btn btn-primary">Go!</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-4 my-4">
+          <div class="card">
+            <img class="card-img-top" src="http://placehold.it/300x200" alt="">
+            <div class="card-body">
+              <h4 class="card-title special-title-color">Card title</h4>
+              <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente esse necessitatibus neque.</p>
+            </div>
+            <div class="card-footer">
+              <a href="#" class="btn btn-primary">Go!</a>
+            </div>
           </div>
         </div>
       </div>
-    </section>
-
+	</div>
+	  
     <section id="testimonials">
 
 			<div class="small-carousel">

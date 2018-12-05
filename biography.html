@@ -39,87 +39,82 @@
             <li class="nav-item">
               <a class="nav-link js-scroll-trigger" href="glossary.html"><i class="fas fa-list-ul"></i> Glossary</a>
             </li>
-			<li class="nav-item">
-              <a class="nav-link js-scroll-trigger" href="biography.html"><i class="fas fa-user"></i> Biography</a>
+			<li class="nav-item active">
+			  <div class="dropdown">
+				  <button class="dropbtn"><a class="nav-link js-scroll-trigger" href="glossary.html"><i class="fas fa-user"></i> Biography
+				  <span class="sr-only">(current)</span><i id="hidden-down" class="fas fa-caret-down"></i><i id="hidden-right" class="fas fa-caret-right"></i></a></button>
+				  <div class="dropdown-content-bio">
+					<a href="#who">Who?</a>
+					<a href="#where">Where?</a>
+					<a href="#what">What?</a>
+				  </div>
+			  </div>
             </li>
 			<li class="nav-item">
               <a class="nav-link js-scroll-trigger" href="contact.html"><i class="fas fa-envelope"></i> Contact / IM</a>
             </li>
-			 <li class="nav-item active">
-              <a class="nav-link js-scroll-trigger" href="goodnews.html"><i class="fas fa-cross"></i> Good News
-			  <span class="sr-only">(current)</span></a>
+			 <li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="goodnews.html"><i class="fas fa-cross"></i> Good News</a>
             </li>
           </ul>
         </div>
       </div>
     </nav>
 	
-	<section class="inset-gray white-merriweather">
-      <div class="goodnews-container text-center">
+    <!-- Page Header -->
+	<section class="contact-title">
+      <div class="text-center">
 		<div class="black">
-			<h1>THE GOOD NEWS</h1><br/>
-			<p>Can you answer the 1 million dollar question? 
-			<br/><br/> Where will you spend eternity when you die? 
-			<br/> You can be sure.</p>
+			<h1>Biography <i class="fas fa-user"></i></h1><br/>
+			<img class="bio-pic" src="steve.jpg" alt="Biography Picture"/>
+			<p class="contact-description">Who am I? Where have I been? What have I done?</p>
 		</div>
       </div>
     </section>
 	
-	<div class="black-line"><h1 class="absolute-text"><b>//</b></h1></div>
-	
-    <section class="goldgrad white-merriweather">
-      <div class="goodnews-container text-center">
-        <h2>HEAVEN</h2>
-        <p>Where the streets of gold are. The place everyone wants to go. Will you?</p>
+	<!--Page Content-->
+	<section id="who">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-8 mx-auto">
+            <h2>Who Am I?</h2>
+            <p class="lead">My name is Steve Ulrich...</p>
+          </div>
+        </div>
       </div>
     </section>
 	
-	<div class="black-line"></div>
-
-	<section class="background-black white-merriweather">
-      <div class="goodnews-container text-center">
-        <h2>SIN</h2>
-        <p>We are all dead in our sin, because we broke God's law.<br/> We all deserve hell.</p>
+	<div class="black-line-fad"><h4 class="absolute-text-div"><i class="fas fa-bible"></i></h4></div>
+	
+	<section id="where">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-8 mx-auto">
+            <h2>Where Have I been?</h2>
+            <p class="lead">A place to maybe lists all the places you have been and possible pictures...</p>
+          </div>
+        </div>
       </div>
     </section>
 	
-	<div class="black-line"></div>
-
-	<section class="background-red white-merriweather">
-      <div class="goodnews-container text-center">
-        <h2>BLOOD</h2>
-        <p>Jesus' blood was shed instead of your blood. God's son paid your fine in full.</p>
+	<div class="black-line-fad"><h4 class="absolute-text-div"><i class="fas fa-bible"></i></h4></div>
+	
+	<section id="what">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-8 mx-auto">
+            <h2>What Have I Done?</h2>
+            <p class="lead">ctures...</p>
+          </div>
+        </div>
       </div>
     </section>
-	
-	<div class="black-line"></div>
-
-    <section class="white-merriweather">
-      <div class="goodnews-container text-center">
-		<div class="black">
-        <h2>SNOW</h2>
-        <p>Repent and trust in Jesus Christ for the forgiveness of your sins and be washed white as snow.
-		<br/> By this you will know that Jesus is our assurance.</p>
-		</div>
-      </div>
-    </section>
-	
-	<div class="black-line"></div>
-	
-	<section class="background-green white-merriweather">
-      <div class="goodnews-container text-center">
-        <h2>GROWTH <i class="fab fa-pagelines"></i></h2>
-        <p>To live is Christ and to die is gain. You have been washed white as snow and cleaned by Jesus' blood. <br/>
-		Pursue God in His word and seek Him daily and you will grow.</p>
-      </div>
-    </section>
-
-	<div class="scrolldown scroll-tab"><b>S<br/>C<br/>R<br/>O<br/>L<br/>L<br/><i class="fas fa-arrow-down"></i></b></div>
 	
 	<!--mailing & Footer -->
 	<div html="footer.html"></div> 
-	  
-	<!--js-->
+
+    <!--js-->
+	<script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js'></script>
 	<script>HTML();</script>
     <script src="js/jquery.min.js"></script>
 	<script src="js/bootstrap.bundle.min.js"></script>
