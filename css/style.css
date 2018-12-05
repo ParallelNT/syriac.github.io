@@ -10,12 +10,32 @@
 	box-shadow: 2px 2px 10px black ;
 }
 
+
+/*CONTACT PAGE*/
 .bio-pic{
 	border-radius:50%;
 	width: 200px;
 	height: 200px;
 	box-shadow: 3px 3px 10px gray;
 }
+
+.messenger-chat{
+	border:none;
+	height:500px;
+	width:90%;
+}
+
+.bible-plugin{
+	width:400; 
+	height:600;
+}
+
+.bible-plugin-div{
+	width:400; 
+	height:600;
+	background-color:lightgray;
+}
+/*END OF CONTACT PAGE*/
 
 /*DROP DOWN*/
 .dropbtn {
