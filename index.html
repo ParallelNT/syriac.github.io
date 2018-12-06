@@ -31,8 +31,8 @@
           <ul class="navbar-nav ml-auto">
             <li class="nav-item">
               <div class="dropdown">
-				  <button class="dropbtn"><a class="nav-link active" href="javascript:void(0)"><i class="fas fa-home"></i> Home
-				  <span class="sr-only">(current)</span><i id="hidden-down" class="fas fa-caret-down"></i><i id="hidden-right" class="fas fa-caret-right"></i></a></button>
+				  <a class="dropbtn nav-link active" href="javascript:void(0)"><i class="fas fa-home"></i> Home
+				  <span class="sr-only">(current)</span><i id="hidden-down" class="fas fa-caret-down"></i><i id="hidden-right" class="fas fa-caret-right"></i></a>
 				  <div class="dropdown-content">
 					<a href="#about">About Us</a>
 					<a href="#whatsnew">Whats New?</a>
@@ -47,10 +47,25 @@
               <a class="nav-link js-scroll-trigger" href="glossary.html"><i class="fas fa-list-ul"></i> Glossary</a>
             </li>
 			<li class="nav-item">
-              <a class="nav-link js-scroll-trigger" href="biography.html"><i class="fas fa-user"></i> Biography</a>
+			  <div class="dropdown">
+				  <a title="Double Click For Bio Page." class="dropbtn nav-link js-scroll-trigger" ondblclick="window.location='biography.html'" href="javascript:void(0)"><i class="fas fa-user"></i> Biography
+				  <i id="hidden-down" class="fas fa-caret-down"></i><i id="hidden-right" class="fas fa-caret-right"></i></a>
+				  <div class="dropdown-content-bio">
+					<a href="biography.html#who">Who?</a>
+					<a href="biography.html#where">Where?</a>
+					<a href="biography.html#what">What?</a>
+				  </div>
+			  </div>
             </li>
 			<li class="nav-item">
-              <a class="nav-link js-scroll-trigger" href="contact.html"><i class="fas fa-envelope"></i> Contact / IM</a>
+			 <div class="dropdown">
+              <a class="dropbtn nav-link js-scroll-trigger" href="javascript:void(0)"><i class="fas fa-envelope"></i> Contact / IM
+			  <i id="hidden-down" class="fas fa-caret-down"></i><i id="hidden-right" class="fas fa-caret-right"></i></a>
+				  <div class="dropdown-content-im">
+					<a href="#messenger">Messenger</a>
+					<a href="#contact">Contact Us</a>
+				  </div>
+			  </div>
             </li>
 			 <li class="nav-item">
               <a class="nav-link js-scroll-trigger" href="goodnews.html"><i class="fas fa-cross"></i> Good News</a>

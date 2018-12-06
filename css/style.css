@@ -36,10 +36,8 @@
     cursor: pointer;
 }
 
-@media (max-width: 990px){
-	.dropbtn {
-	margin-left:-8px;
-	}
+.dropbtn:hover {
+	color: #fffff !important;
 }
 
 .dropdown {
@@ -84,7 +82,7 @@
 @media (max-width: 990px) { 
 	.dropdown-content-im {
 	Padding-top:0px;
-	margin-left:150px;
+	margin-left:148px;
 	margin-top:-30px;
 	}
 }
@@ -130,7 +128,7 @@
 @media (max-width: 990px) { 
 	.dropdown-content-bio {
 	Padding-top:0px;
-	margin-left:135px;
+	margin-left:130px;
 	margin-top:-30px;
 	}
 }
