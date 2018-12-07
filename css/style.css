@@ -197,8 +197,9 @@
 }
 
 .dropdown-content-mobile a:hover {
-	background-color: #484d53;
-	color: #ffffff;
+	background-color: #f1f1f1;
+	color: #800000;
+	text-decoration:underline;
 }
 
 .dropdown-mobile:hover .dropdown-content-mobile {
@@ -229,7 +230,7 @@
     left: 0;
     background-color: #800000;
     min-width: 160px;
-    z-index: 1;
+    z-index: 9999;
 	
 }
 
