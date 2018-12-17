@@ -11,6 +11,50 @@
 	z-index:999;
 }
 
+.profile-block-padding{
+	padding-left: 20px;
+	padding-right: 20px;
+}
+
+.important-size{
+	width:270px !important;
+}
+
+@media (min-width: 1204px) {
+	.important-size {
+		width:330px !important;
+	}
+}
+
+
+.profile-img{
+	border-radius:50%; 
+	padding: 10px;
+	height:100px; 
+	width:100px; 
+	position:absolute; 
+	z-index:9999;
+}
+
+.inline{
+	display:inline !important;
+}
+
+.author-name-color{
+	color: #800000
+}
+
+.spacer{
+	background-color: #fff; 
+	height: 25px; 
+	width: 100%;
+}
+
+.big{
+	font-size:50px;
+	 line-height: 1.0;
+}
+
 .centered-p{
 	position: relative;
     text-align: center;
@@ -352,6 +396,10 @@
 	text-align: center;
 }
 
+.align-right{
+	text-align: right;
+}
+
 .center-div{
 	position: relative;
 	top: 45%;
@@ -376,21 +424,36 @@
 .black-line-fad{
 	width: 100%;
 	height: 2px;
-	background: linear-gradient(to right, transparent, #800000, transparent);
+	background: linear-gradient(to right, transparent, lightgray, transparent);
+}
+
+.gray-line-fad{
+	width: 100%;
+	height: 2px;
+	background: linear-gradient(to right, transparent, lightgray, transparent);
 }
 
 .absolute-text-div{
 	display: inline-block;
-	color: black;
+	color: #dddddd !important;
 	line-height: 0.0em;
 	line-width: 0.0em;
 	position: relative;
-	padding: -5px;
 	top: 57%;
     left: 50%;
 	text-align:center;
     transform: translate(-50%, -50%);
-	color: #800000;
+	background-color: #fff;
+}
+
+.absolute-title-div{
+	display: inline-block;
+	color: #000000;
+	position: relative;	
+    left: 50%;
+	text-align:center;
+    transform: translate(-50%, -50%);
+	border:#ffffff;
 	background-color: #fff;
 }
 
@@ -542,12 +605,6 @@
 	display: inline-block;
 	padding: 30px;
 	text-align: left;
-}
-
-.footer-inline:hover{
-	background-color:#484d53;
-	border-radius:5px;
-	box-shadow: 0 1px 7px 0 black inset;
 }
 
 .footer-inline, ul{
@@ -1814,6 +1871,10 @@ pre code {
 	padding-left: 15px;
 	margin-right: auto;
 	margin-left: auto
+}
+
+.about {
+	margin-top:-50px;
 }
 
 @media (min-width:576px) {
@@ -5827,7 +5888,7 @@ input[type=submit].btn-block {
 .card-body {
 	-ms-flex: 1 1 auto;
 	flex: 1 1 auto;
-	padding: 1.25rem
+	padding: 1.25rem;
 }
 
 .card-title {
@@ -5854,8 +5915,9 @@ input[type=submit].btn-block {
 .card-header {
 	padding: .75rem 1.25rem;
 	margin-bottom: 0;
-	background-color: rgba(0, 0, 0, .03);
-	border-bottom: 1px solid rgba(0, 0, 0, .125)
+	background-image: linear-gradient(#800000, #8b1717, #800000);
+	border-bottom: 1px solid rgba(0, 0, 0, .125);
+	color:#ffffff;
 }
 
 .card-header:first-child {

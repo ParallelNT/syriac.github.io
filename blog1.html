@@ -108,15 +108,13 @@
           <!-- Author -->
           <p class="lead">
             by
-            <a href="#">Start Bootstrap</a>
+            <a href="biography.html" class="special-title-color author-name-color">Steve Ulrich</a>
           </p>
 
-          <hr>
-
+		  <hr>
           <!-- Date/Time -->
           <p>Posted on January 1, 2018 at 12:00 PM</p>
-
-          <hr>
+		  <hr>
 
           <!-- Preview Image -->
           <img class="img-fluid rounded" src="http://placehold.it/900x300" alt="">
@@ -146,71 +144,90 @@
         </div>
 
         <!-- Sidebar Widgets Column -->
-        <div class="col-md-4">
+        <div class="col">
 
           <!-- Search Widget -->
-          <div class="card my-4">
-            <h5 class="card-header">Search</h5>
-            <div class="card-body">
-              <div class="input-group">
-                <input type="text" class="form-control" placeholder="Search for...">
-                <span class="input-group-btn">
-                  <button class="btn btn-secondary" type="button">Go!</button>
-                </span>
-              </div>
-            </div>
-          </div>
+		  <div class="inline">
+			  <div class="card my-4">
+				<h5 class="card-header">Search Dictionary <i class="fas fa-search"></i></h5>
+				<div class="card-body">
+				  <div class="input-group">
+					<input type="text" class="form-control" placeholder="Search for...">
+					<span class="input-group-btn">
+					  <button class="btn btn-secondary" type="button">Go!</button>
+					</span>
+				  </div>
+				</div>
+			  </div>
+			 </div>
 
           <!-- Categories Widget -->
-          <div class="card my-4">
-            <h5 class="card-header">Categories</h5>
-            <div class="card-body">
-              <div class="row">
-                <div class="col-lg-6">
-                  <ul class="list-unstyled mb-0">
-                    <li>
-                      <a href="#">Web Design</a>
-                    </li>
-                    <li>
-                      <a href="#">HTML</a>
-                    </li>
-                    <li>
-                      <a href="#">Freebies</a>
-                    </li>
-                  </ul>
-                </div>
-                <div class="col-lg-6">
-                  <ul class="list-unstyled mb-0">
-                    <li>
-                      <a href="#">JavaScript</a>
-                    </li>
-                    <li>
-                      <a href="#">CSS</a>
-                    </li>
-                    <li>
-                      <a href="#">Tutorials</a>
-                    </li>
-                  </ul>
-                </div>
-              </div>
-            </div>
-          </div>
+		  <div class="inline">
+			  <div class="card my-4">
+				<h5 class="card-header ">Categories</h5>
+				<div class="card-body">
+				  <div class="row">
+					<div class="col-lg-6">
+					  <ul class="list-unstyled mb-0">
+						<li>
+						  <a href="#">Web Design</a>
+						</li>
+						<li>
+						  <a href="#">HTML</a>
+						</li>
+						<li>
+						  <a href="#">Freebies</a>
+						</li>
+					  </ul>
+					</div>
+					<div class="col-lg-6">
+					  <ul class="list-unstyled mb-0">
+						<li>
+						  <a href="#">JavaScript</a>
+						</li>
+						<li>
+						  <a href="#">CSS</a>
+						</li>
+						<li>
+						  <a href="#">Tutorials</a>
+						</li>
+					  </ul>
+					</div>
+				  </div>
+				</div>
+			  </div>
+		  </div>
 
           <!-- Side Widget -->
-          <div class="card my-4">
-            <h5 class="card-header">Side Widget</h5>
-            <div class="card-body">
-              You can put anything you want inside of these side widgets. They are easy to use, and feature the new Bootstrap 4 card containers!
-            </div>
-          </div>
+		  <div class="inline">
+			  <div class="card my-4">
+				<h5 class="card-header">Side Widget</h5>
+				<div class="card-body">
+				  You can put anything you want inside of these side widgets. They are easy to use, and feature the new Bootstrap 4 card containers!
+				</div>
+			  </div>
+		  </div>
+		  
+			<div class="inline">
+				<div class="card my-4">
+					<h5 class="card-header"><i class="fas fa-eye"></i>  Views</h5>
+					<div class="card-body-visitors align-center">
+						<a href='https://free-hit-counters.net/'>https://free-hit-counters.net</a> <script type='text/javascript' src='https://www.freevisitorcounters.com/auth.php?id=0cebb986cbd7d5b99ddc3b7b3953bfbac6c42621'></script>
+						<script type="text/javascript" src="https://www.freevisitorcounters.com/en/home/counter/454863/t/1"></script></div>
+				</div>
+			</div>
+		</div><!--/.col-->
+      </div><!-- /.row -->
+	  <br/><br/>
+	  
+	  <div class="black-line-fad"><h2 class="absolute-title-div">Chat</h2></div>
+	  <br/><br/>
+	  
+	  <div id="disqus_thread"></div><br/><br/>
+		<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+									
 
-        </div>
-
-      </div>
-      <!-- /.row -->
-
-    </div>
-    <!-- /.container -->
+    </div><!-- /.container -->
 
 	<!--mailing & Footer -->
 	<div html="footer.html"></div> 
@@ -219,6 +236,23 @@
 	<script>HTML();</script>
     <script src="js/jquery.min.js"></script>
 	<script src="js/bootstrap.bundle.min.js"></script>
+	<script>
+		/**
+		*  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
+		*  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables*/
+		
+		var disqus_config = function () {
+		this.page.url = 'https://syriac.netlify.com/blog1.html';  // Replace PAGE_URL with your page's canonical URL variable
+		this.page.identifier = 'blog1'; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+		};
+		
+		(function() { // DON'T EDIT BELOW THIS LINE
+		var d = document, s = d.createElement('script');
+		s.src = 'https://syriacnt.disqus.com/embed.js';
+		s.setAttribute('data-timestamp', +new Date());
+		(d.head || d.body).appendChild(s);
+		})();
+	</script>
 	</div>
   </body>
 
