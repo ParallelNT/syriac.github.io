@@ -4,36 +4,154 @@
  * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-scrolling-nav/blob/master/LICENSE)
  */
 @import url(https://fonts.googleapis.com/css?family=Merriweather);
-@import url(https://use.fontawesome.com/releases/v5.5.0/css/all.css);
+
+.text-white{
+	color:#ffffff !important;
+}
+
+#bible-icon{
+	font-size: 25px;
+}
+
+#bible-icon:hover{
+	text-shadow: 0px 0px 10px white;
+}
+
+.float-right{
+	float:right !important;
+}
+
+.slanted-div{
+
+  background-color:#800000;
+  position:relative;
+  height:470px auto;
+  width:100%;
+}
+
+.slanted-div-top, .slanted-div-bottom{
+	width: 0;
+	height: 0;
+	overflow: hidden;
+}
+
+.slanted-div-top{
+	border-top: 20px solid transparent;
+	border-right: 100vw solid #800000;
+	border-bottom: 0px solid transparent;
+}
+
+.slanted-div-bottom{
+	border-top: 0px solid transparent;
+	border-left: 100vw solid #800000;
+	border-bottom: 20px solid transparent;
+}
+
+.slanted-div-blog-top, .slanted-div-blog-bottom{
+	width: 0;
+	height: 0;
+	overflow: hidden;
+}
+
+.slanted-div-blog-bottom{
+	border-top: 0px solid transparent;
+	border-right: 100vw solid #800000;
+	border-bottom: 20px solid transparent;
+}
+
+.slanted-div-blog-top{
+	border-top: 20px solid transparent;
+	border-left: 100vw solid #800000;
+	border-bottom: 0px solid transparent;
+}
+
+.cantact-n-im{
+	padding-left:10px;
+	padding: 8px;
+	border:solid #ffffff 2px;
+	border-radius:2px;
+	display: inline;
+}
+
+.contact-n-im-text-dec{
+	text-decoration: none; 
+	color:#fff;
+}
+
+.contact-n-im-text-dec:hover{
+	text-decoration: none; 
+}
+
+.cantact-n-im:hover{
+	background-color:#f1f1f1;
+	color: #800000;
+	border-radius:2px;
+	padding:8px;
+	display: inline;
+}
 
 #mainNav{
 	box-shadow: 2px 2px 10px black ;
 	z-index:999;
 }
 
-.profile-block-padding{
-	padding-left: 20px;
-	padding-right: 20px;
+.profile-container{
+	margin: auto;
 }
 
-.important-size{
-	width:270px !important;
-}
 
-@media (min-width: 1204px) {
+
+@media (max-width: 1000px) {
 	.important-size {
-		width:330px !important;
+		width: 100% !important;
 	}
 }
+@media (max-width: 1000px){
+	.line-height{
+		padding-bottom:30px !important;
+	}	
+}
 
+@media (max-width: 770px){
+	.line-height{
+		padding-bottom:70px !important;
+	}	
+}
+
+@media (max-width: 576px){
+	.line-height{
+		padding-bottom:10px !important;
+	}	
+}
 
 .profile-img{
 	border-radius:50%; 
-	padding: 10px;
+	padding: 8px;
+	margin-top:15px;
 	height:100px; 
 	width:100px; 
 	position:absolute; 
 	z-index:9999;
+}
+
+@media (max-width: 990px){
+	.profile-img{
+	margin-top:30px;
+	}	
+}
+
+@media (max-width: 770px){
+	.profile-img{
+	margin-top:55px;
+	}	
+}
+
+@media (max-width: 573px){
+	.profile-img{
+	margin-top:0;
+	height:110px; 
+	width:110px; 
+	}	
 }
 
 .inline{
@@ -53,6 +171,10 @@
 .big{
 	font-size:50px;
 	 line-height: 1.0;
+}
+
+.less-big{
+	font-size:25px;
 }
 
 .centered-p{
@@ -455,6 +577,17 @@
     transform: translate(-50%, -50%);
 	border:#ffffff;
 	background-color: #fff;
+}
+
+.absolute-title-blog-div{
+	display: inline-block;
+	color: #ffffff;
+	position: relative;	
+    left: 50%;
+	text-align:center;
+    transform: translate(-50%, -50%);
+	border:#ffffff;
+	background-color: #800000;
 }
 
 .absolute-text-cirlce{
@@ -3793,6 +3926,13 @@ fieldset:disabled a.btn {
 	background-image: linear-gradient(to bottom right, #cc0000, #800000, #972e2e, #cc0000);
 }
 
+@media (max-width: 990px){
+	.btn-primary {
+		color: #fff;
+		background-image: linear-gradient(to bottom right, #8ae5b1, #3ad37b, #3ad37b, #5ada91);
+	}
+}
+
 .btn-primary:hover {
 	transition: .5s;
 	color: #fff;
@@ -5803,7 +5943,7 @@ input[type=submit].btn-block {
 
 .navbar-dark .navbar-brand:focus,
 .navbar-dark .navbar-brand:hover {
-	color: lightgray
+	color: #fff
 }
 
 .navbar-dark .navbar-nav .nav-link {
