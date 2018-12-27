@@ -5,8 +5,40 @@
  */
 @import url(https://fonts.googleapis.com/css?family=Merriweather);
 
+/* tips */
+
+#tips, #tips li{
+
+	list-style:none;
+	}
+#tips{
+	
+	}
+#tips li{
+	display:none; /* hide the items at first only to display one with javascript */
+	}
+					
+
+/* // tips */
+
+
+.border-white-right{
+	border-right: solid #fff 1px;
+}
+
+@media screen and (max-width: 300px){
+	.border-white-right{
+		display: none;
+	}
+}	
+
 .text-white{
 	color:#ffffff !important;
+}
+
+.float-right{
+	float: right;
+
 }
 
 #bible-icon{
@@ -175,6 +207,12 @@
 
 .less-big{
 	font-size:25px;
+}
+
+@media screen and (max-width: 990px){
+	.less-big{
+		font-size:15px;
+	}
 }
 
 .centered-p{
@@ -1845,6 +1883,12 @@ h6 {
 .lead {
 	font-size: 1.25rem;
 	font-weight: 300
+}
+
+@media (max-width: 990px){
+	.lead {
+	font-size: 1.00rem;
+	}
 }
 
 .display-1 {
@@ -6029,6 +6073,12 @@ input[type=submit].btn-block {
 	-ms-flex: 1 1 auto;
 	flex: 1 1 auto;
 	padding: 1.25rem;
+}
+
+.card-body-2 {
+	-ms-flex: 1 1 auto;
+	flex: 1 1 auto;
+	padding: 1.0rem;
 }
 
 .card-title {
