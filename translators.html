@@ -45,16 +45,16 @@
               <a style="display: inline-block;" class="nav-link js-scroll-trigger" href="articles.html"><i class="fas fa-newspaper"></i> Articles</a>
             </li>
             <li class="nav-item">
-				  <a style="display: inline-block;" class="nav-link js-scroll-trigger" href="dictionary.html"><i class="fas fa-list-ul"></i> Dictionary</a>
-			</li>
+              <a style="display: inline-block;" class="nav-link js-scroll-trigger" href="dictionary.html"><i class="fas fa-list-ul"></i> Dictionary</a>
+            </li>
 			<li class="nav-item">
 			  <div class="dropdown">
-				  <a class="dropbtn nav-link js-scroll-trigger" href="biography.html"><i class="fas fa-user"></i> Biography
-				  <i id="hidden-down" class="fas fa-caret-down"></i></a>
+				  <a class="dropbtn nav-link js-scroll-trigger active" href="biography.html"><i class="fas fa-user"></i> Biography
+				  <span class="sr-only">(current)</span><i id="hidden-down" class="fas fa-caret-down"></i></a>
 				  <div class="dropdown-content">
-					<a href="biography.html#who">Who?</a>
-					<a href="biography.html#where">Where?</a>
-					<a href="biography.html#what">What?</a>
+					<a href="#who">Who?</a>
+					<a href="#where">Where?</a>
+					<a href="#what">What?</a>
 				  </div>
 			  </div>
             </li>
@@ -94,41 +94,52 @@
       </div>
     </nav>
 	
-	 <!-- Page Content -->
+    <!-- Page Header -->
 	<section class="contact-title">
       <div class="text-center">
 		<div class="black">
-			<h1>Site Map <i class="fas fa-sitemap"></i></h1><br/>
-			<p class="contact-description">Click and go to any page you want. </p>
+			<h1>Translators <i class="fas fa-users"></i></h1><br/>
+			<p class="contact-description">Basic overview...</p>
 		</div>
       </div>
     </section>
 	
-	<section id="about">
+	<!--Page Content-->
+	<section id="who">
       <div class="container">
         <div class="row">
           <div class="col-lg-8 mx-auto">
-			<h3 class="align-center"><i class="fas fa-home"></i> <a title="Home :)"class="href-dec" href="index.html">Home</a></h3><br/>
-			<div class="black-line-fad"><h4 class="absolute-text-div"><i class="fas fa-bible"></i></h4></div>
+		  <img class="smaller-bio-pic absolute-pic-div" src="etheridge.jpg" alt="J.W. Etheridge Picture"/>
+            <h2>J.W. Etheridge</h2>
+            <p class="lead">words...</p>
+          </div>
+        </div>
+      </div>
+    </section>
 	
-			<br/>
+	<div class="black-line-fad"><h4 class="absolute-text-div"><i class="fas fa-bible"></i></h4></div>
 	
-			<div class="center-div">
-				<div class="sitemap-inline">
-					<p class="lead"><i class="fas fa-folder-open"></i> <a title="Articles :)"class="href-dec" href="articles.html">Articles</a></p>
-						<p class="lead indent"><i class="fas fa-folder"></i> <a title="Blog 1 :)"class="href-dec" href="blog1.html">Blog1 <b>+</b> <i class="fas fa-comments"></i></a></>
-						<p class="lead indent"><i class="fas fa-folder"></i> Blog <b>+</b> <i class="fas fa-comments"></i></>
-						<p class="lead indent"><i class="fas fa-folder"></i> Blog <b>+</b> <i class="fas fa-comments"></i></> 
-					<p class="lead"><i class="fas fa-folder-open"></i> <a title="Glossay :)"class="href-dec" href="glossay.html">Glossary</a></p>
-						<p class="lead indent"><i class="fas fa-folder"></i> Term Search</>
-				
-					<p class="lead"><i class="fas fa-folder-open"></i> <a title="Contact Us :)"class="href-dec" href="contact.html">Contact</a></p>
-						<p class="lead indent"><i class="fas fa-folder"></i> Message Us</>
-
-					<p class="lead"><i class="fas fa-folder-open"></i> <a title="Good News :)"class="href-dec" href="goodnews.html">Good News</a></p>
-				</div>
-			</div>
-            
+	<section id="where">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-8 mx-auto">
+			<img class="smaller-bio-pic absolute-pic-div" src="james.jpg" alt="James Murdock Picture"/>
+            <h2>James Murdock</h2>
+            <p class="lead">words...</p>
+          </div>
+        </div>
+      </div>
+    </section>
+	
+	<div class="black-line-fad"><h4 class="absolute-text-div"><i class="fas fa-bible"></i></h4></div>
+	
+	<section id="what">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-8 mx-auto">
+			<img class="smaller-bio-pic absolute-pic-div" src="george.jpg" alt="George Lamsa Picture"/>
+            <h2>George Lamsa</h2>
+            <p class="lead">words...</p>
           </div>
         </div>
       </div>
@@ -136,8 +147,9 @@
 	
 	<!--mailing & Footer -->
 	<div html="footer.html"></div> 
-	  
-	<!--js-->
+
+    <!--js-->
+	<script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js'></script>
 	<script>HTML();</script>
     <script src="js/jquery.min.js"></script>
 	<script src="js/bootstrap.bundle.min.js"></script>
