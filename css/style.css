@@ -110,23 +110,20 @@
 
 }
 
-#bible-icon{
-	font-size: 25px;
-}
-
-#bible-icon:hover{
-	text-shadow: 0px 0px 10px white;
-}
-
 .float-right{
 	float:right !important;
 }
 
 .slanted-div{
-
   background-color:#800000;
   position:relative;
   height:470px auto;
+  width:100%;
+}
+
+.maroon-div-header{
+  background-color:#800000;
+  height:250px;
   width:100%;
 }
 
@@ -352,7 +349,7 @@
 	border-radius:50%;
 	width: 150px;
 	height: 150px;
-	box-shadow: 3px 3px 10px gray;
+	box-shadow: 3px 3px 10px #000000;
 }
 
 .messenger-chat{
@@ -692,10 +689,8 @@
 
 .absolute-pic-div{
 	display: inline-block;
-	line-height: 0.0em;
-	line-width: 0.0em;
 	position: relative;
-	top: 5%;
+	top: 35%;
     left: 50%;
     transform: translate(-50%, -50%);
 }
@@ -735,6 +730,27 @@
 	background-color: #fff;
 	border-radius: 100px;
 }
+
+.title-icon{
+	margin:auto;
+	margin-top:5px;
+	color: #800000;
+}
+
+.absolute-title-cirlce{
+	display: inline-block;
+	text-align:center;
+	height: 30px;
+	width: 30px;
+	background-color: #fff;
+	border-radius: 100px;
+}
+
+.title-icon:hover{
+	text-shadow:0px 0px 5px #800000 ;
+	color: #fff
+}
+
 /*END OF PARAGRPH DIVIDER*/
 
 /*WEBSITE DECORATION*/
@@ -1256,7 +1272,6 @@
 	text-decoration: none;	
 	color: #9a9da0;
 	padding: 7px;
-
 }
 
 .id-navbar-dec:hover{
@@ -5711,6 +5726,11 @@ input[type=submit].btn-block {
 
 .tab-content>.active {
 	display: block
+}
+
+.title-img {
+	height:35px; 
+	width:155px;
 }
 
 .navbar {
