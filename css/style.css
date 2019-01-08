@@ -5800,6 +5800,7 @@ input[type=submit].btn-block {
 }
 
 .nav-link {
+	color:#fff;
 	display: block;
 	padding: .5rem 1rem
 }
@@ -8035,7 +8036,7 @@ button.close {
 	left: 15%;
 	z-index: 10;
 	padding-top: 20px;
-	padding-bottom: 70px;
+	
 	color: #fff;
 	text-align: center
 }
