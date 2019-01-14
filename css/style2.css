@@ -143,6 +143,10 @@
   background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA4AAAAOCAQAAAC1QeVaAAAAY0lEQVR4AWP4jwcSloSB4oTiBCCFQ/JB8QN0SYS+/0CYgCZZXFDcUHyg+ANIEkgeAPIKEJILgIKocAHCWHTpBWh2Fl+AS10AipEgCRY+AIRAGk2y2ADoxwCwogAgy4Co4MMDAQ52uOmaLCe/AAAAAElFTkSuQmCC);
 }
 
+.app-rating--0::before {
+  width: 0px;
+}
+
 .app-rating--1::before {
   width: 14px;
 }

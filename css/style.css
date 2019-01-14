@@ -1427,6 +1427,7 @@
   height: 65vh;
   min-height: 300px;
   background: no-repeat center center scroll;
+  background-color: #cccccc;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
