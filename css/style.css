@@ -11,6 +11,10 @@
 		float:right
 }
 
+.pic-float-left img{
+		float:left
+}
+
 .pic-max-wh{
 	max-width:200px
 }
