@@ -912,6 +912,16 @@
       background: #fff;
 }
 
+/* github plus button class*/
+.gitHubBtn{
+    background: #15181b;
+}
+
+.gitHubBtn:hover{
+      color: #15181b;
+      background: #fff;
+}
+
 /* linkedin button class*/
 .linkedinBtn{
     background: #0094BC;
