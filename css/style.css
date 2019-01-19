@@ -51,6 +51,30 @@
 	color:#fff;
 }
 
+.sticky-footer{
+	box-shadow: -2px -2px 10px #4c4c4c;
+	height:130px;
+	background-color:#f8f9fa;
+	position: fixed;
+	bottom:0;
+	width:100%;
+	color:#fff;
+}
+
+@media screen and (max-width: 750px){
+.sticky-footer{
+		height:100px;
+	}
+}
+
+@media screen and (max-width: 750px){
+	.hide-750{
+	display:none;
+	}
+}
+	
+
+
 .book-category{
 	margin: auto 18px;
 	display: inline;
@@ -1180,12 +1204,12 @@
   background: #FFF;
   color: #3a404d;
   border-radius: 5px;
-  border-color: #DFE2E8;
+  border-color: #800000;
 }
 
 .form-control:focus, .form-control.input-focus {
   box-shadow: none !important;
-  border-color: #2b98eb;
+  border-color: #800000;
 }
 
 .card-image{
@@ -1209,8 +1233,9 @@
 }
 .card__title {
   font-weight: 500;
-  font-size: 16px;
+  font-size: 18px;
   line-height: 24px;
+  border-bottom: solid #000000 1px
 }
 .card__title a {
   color: #3a404d;
@@ -1271,7 +1296,7 @@
   width: 100%;
 }
 .glossary__results__term {
-  color: #2b98eb;
+  color: #800000;
 }
 .glossary__results__item {
   margin-bottom: 20px;
@@ -1282,13 +1307,13 @@
   color: #3a404d;
 }
 .glossary__results__item a.card {
-  border: 2px solid transparent;
+  border: 3px solid transparent;
 }
 .glossary__results__item a:hover {
-  border-color: #2b98eb;
+  border-color: #800000;
 }
 .glossary__results__item a:hover .card__title {
-  color: #2b98eb;
+  color: #800000;
 }
 
 .title-style--three {
@@ -1299,7 +1324,7 @@
 }
 .title-style--three:after {
   content: "";
-  background: #2b98eb;
+  background: #800000;
   width: 60px;
   height: 3px;
   position: absolute;
@@ -3696,7 +3721,7 @@ pre code {
 .form-control:focus {
 	color: #495057;
 	background-color: #fff;
-	border-color: #80bdff;
+	border-color: #800000;
 	outline: 0;
 	box-shadow: 0 0 0 .2rem rgba(0, 123, 255, .25)
 }
