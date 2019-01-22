@@ -5,7 +5,33 @@
  */
 @import url(https://fonts.googleapis.com/css?family=Merriweather);
 
+.parallel-james{
+	margin-right: 20px
+}
 
+@media screen and (max-width: 575px){
+	.parallel-james{
+		margin-right: 0px;
+	}
+}
+
+.small-padding{
+	padding: 10px;
+	border-radius: 5px
+}
+
+.grid-light-gray{
+	background-color:#ecf0f1
+}
+
+.grid-dark-gray{
+	background-color:#d4d8d8
+}
+
+.card-img-index{
+	height:100px;
+	width:70px
+}
 
 .pic-float-right img{
 		float:right
@@ -1942,7 +1968,7 @@ sup {
 }
 
 a {
-	color: #007bff;
+	color: #800000;
 	text-decoration: none;
 	background-color: transparent;
 	-webkit-text-decoration-skip: objects
@@ -6687,14 +6713,14 @@ input[type=submit].btn-block {
 	padding: .5rem .75rem;
 	margin-left: -1px;
 	line-height: 1.25;
-	color: #007bff;
+	color: #800000;
 	background-color: #fff;
 	border: 1px solid #dee2e6
 }
 
 .page-link:hover {
 	z-index: 2;
-	color: #0056b3;
+	color: #800000;
 	text-decoration: none;
 	background-color: #e9ecef;
 	border-color: #dee2e6
@@ -10813,7 +10839,7 @@ button.bg-dark:hover {
 }
 
 .text-primary {
-	color: #007bff!important
+	color: #800000!important
 }
 
 a.text-primary:focus,
