@@ -1321,6 +1321,11 @@
   margin: 0;
   width: 100%;
 }
+
+.negative-margin{
+	margin-bottom: 5px;
+}
+
 .glossary__results__term {
   color: #800000;
 }
@@ -1357,6 +1362,12 @@
   left: 0;
   bottom: 0;
   border-radius: 30px;
+}
+
+.glossary-result-margin{
+	margin-left:30px;
+	margin-right:30px;
+	width:100%
 }
 
 /*END OF GLOSSARY*/
