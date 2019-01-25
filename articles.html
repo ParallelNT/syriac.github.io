@@ -23,6 +23,7 @@
 	<!--Bootstrap core CSS & Reg CSS & font awesome-->
 	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
     <link href="css/style.css" rel="stylesheet">
+    <script src="js/jquery.js"></script>
 	<script src="js/footer.js"></script>
   </head>
 
@@ -38,6 +39,89 @@
 				<h1>Articles <i class="fas fa-newspaper"></i></h1>
 			</div>
 		  </div>
+		  <br/>
+				<ul id="tips">
+				  <li>
+						  <div class="col-3 portfolio-item">
+					          <div class="card h-50">
+					            <a href="blog1.html"><img class="card-img-top" src="placecard700x400.jpg" alt=""></a>
+					            <div class="card-body">
+					              <h4 class="card-title">
+					                <a href="blog1.html">Project 1</a>
+					              </h4>
+					              <p class="card-text black">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam viverra euismod odio, gravida pellentesque urna varius vitae.</p>
+					            </div>
+					          </div>
+					        </div>
+					</li>
+					<li>
+						  <div class="col-3 portfolio-item">
+					          <div class="card h-50">
+					            <a href="blog1.html"><img class="card-img-top" src="placecard700x400.jpg" alt=""></a>
+					            <div class="card-body">
+					              <h4 class="card-title">
+					                <a href="blog1.html">Project 2</a>
+					              </h4>
+					              <p class="card-text black">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam viverra euismod odio, gravida pellentesque urna varius vitae.</p>
+					            </div>
+					          </div>
+					        </div>
+					</li>
+					<li>
+						  <div class="col-3 portfolio-item">
+					          <div class="card h-50">
+					            <a href="blog1.html"><img class="card-img-top" src="placecard700x400.jpg" alt=""></a>
+					            <div class="card-body">
+					              <h4 class="card-title">
+					                <a href="blog1.html">Project 3</a>
+					              </h4>
+					              <p class="card-text black">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam viverra euismod odio, gravida pellentesque urna varius vitae.</p>
+					            </div>
+					          </div>
+					        </div>
+					</li>
+				</ul>
+				<ul id="tips2">
+				  <li>
+						  <div class="col-3">
+					          <div class="card h-50">
+					            <a href="blog1.html"><img class="card-img-top" src="placecard700x400.jpg" alt=""></a>
+					            <div class="card-body">
+					              <h4 class="card-title">
+					                <a href="blog1.html">Project 1</a>
+					              </h4>
+					              <p class="card-text black">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam viverra euismod odio, gravida pellentesque urna varius vitae.</p>
+					            </div>
+					          </div>
+					        </div>
+					</li>
+					<li>
+						  <div class="col-3">
+					          <div class="card h-50">
+					            <a href="blog1.html"><img class="card-img-top" src="placecard700x400.jpg" alt=""></a>
+					            <div class="card-body">
+					              <h4 class="card-title">
+					                <a href="blog1.html">Project 2</a>
+					              </h4>
+					              <p class="card-text black">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam viverra euismod odio, gravida pellentesque urna varius vitae.</p>
+					            </div>
+					          </div>
+					        </div>
+					</li>
+					<li>
+						  <div class="col-3">
+					          <div class="card h-50">
+					            <a href="blog1.html"><img class="card-img-top" src="placecard700x400.jpg" alt=""></a>
+					            <div class="card-body">
+					              <h4 class="card-title">
+					                <a href="blog1.html">Project 3</a>
+					              </h4>
+					              <p class="card-text black">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam viverra euismod odio, gravida pellentesque urna varius vitae.</p>
+					            </div>
+					          </div>
+					        </div>
+					</li>
+				</ul>
 		</section>
     <!-- Page Content -->
     <div class="container">
@@ -149,6 +233,64 @@
 	<div html="HTML.html"></div> 
 	
 	<!--js-->
+	<script type="text/javascript">
+
+	this.randomtip = function(){
+	
+		var pause = 6000; // define the pause for each tip (in milliseconds) Feel free to make the pause longer so users can have time to read the tips :)
+		var length = $("#tips li").length; 
+		var temp = -1;		
+	
+		this.getRan = function(){
+			// get the random number
+			var ran = Math.floor(Math.random()*length) + 1;
+			return ran;
+		};
+		this.show = function(){
+			var ran = getRan();
+			// to avoid repeating tips we need to check 
+			while (ran == temp){
+				ran = getRan();
+			}; 
+			temp = ran;
+			$("#tips li").hide();	
+			$("#tips li:nth-child(" + ran + ")").fadeIn("fast");		
+		};
+		// initiate the script and also set an interval
+		show(); setInterval(show,pause);
+		
+	};
+	this.randomtip2 = function(){
+	
+		var pause = 3000; // define the pause for each tip (in milliseconds) Feel free to make the pause longer so users can have time to read the tips :)
+		var length = $("#tips2 li").length; 
+		var temp = -1;		
+	
+		this.getRan = function(){
+			// get the random number
+			var ran = Math.floor(Math.random()*length) + 1;
+			return ran;
+		};
+		this.show = function(){
+			var ran = getRan();
+			// to avoid repeating tips we need to check 
+			while (ran == temp){
+				ran = getRan();
+			}; 
+			temp = ran;
+			$("#tips2 li").hide();	
+			$("#tips2 li:nth-child(" + ran + ")").fadeIn("fast");		
+		};
+		// initiate the script and also set an interval
+		show(); setInterval(show,pause);
+		
+	};
+	
+	$(document).ready(function(){	
+		randomtip();
+		randomtip2();
+	});
+	</script>
 	<script>HTML();</script>
     <script src="js/jquery.min.js"></script>
 	<script src="js/bootstrap.bundle.min.js"></script>
