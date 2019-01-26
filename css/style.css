@@ -5,6 +5,13 @@
  */
 @import url(https://fonts.googleapis.com/css?family=Merriweather);
 
+.my-book-img{
+	max-width: 100%;
+    height: auto;
+    width: auto\9; /* ie8 */
+	
+}
+
 .parallel-james{
 	margin-right: 20px
 }
@@ -8267,6 +8274,12 @@ button.bg-dark:hover {
 	display: block;
 	clear: both;
 	content: ""
+}
+
+@media screen and (max-width: 900px){
+	.d-none-900{
+	display: none !important
+	}
 }
 
 .d-none {

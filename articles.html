@@ -37,91 +37,54 @@
 		  <div class="text-center">
 			<div class="black">
 				<h1>Articles <i class="fas fa-newspaper"></i></h1>
+				<h3>Recommended Content</h3>
 			</div>
 		  </div>
 		  <br/>
+		  <div class="row container-fluid">
+		  <div class="col-sm-4"><img class="d-none-900" style="height: 90%;float: right; margin-right: -20px;padding-top:10px;" title="Curly bracket left" src="curly-left.png"/></div>
+		  <div class="col-sm-4">
 				<ul id="tips">
 				  <li>
-						  <div class="col-3 portfolio-item">
+						  <div class="portfolio-item">
 					          <div class="card h-50">
 					            <a href="blog1.html"><img class="card-img-top" src="placecard700x400.jpg" alt=""></a>
 					            <div class="card-body">
 					              <h4 class="card-title">
 					                <a href="blog1.html">Project 1</a>
 					              </h4>
-					              <p class="card-text black">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam viverra euismod odio, gravida pellentesque urna varius vitae.</p>
 					            </div>
 					          </div>
 					        </div>
 					</li>
 					<li>
-						  <div class="col-3 portfolio-item">
+						  <div class="portfolio-item">
 					          <div class="card h-50">
 					            <a href="blog1.html"><img class="card-img-top" src="placecard700x400.jpg" alt=""></a>
 					            <div class="card-body">
 					              <h4 class="card-title">
 					                <a href="blog1.html">Project 2</a>
 					              </h4>
-					              <p class="card-text black">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam viverra euismod odio, gravida pellentesque urna varius vitae.</p>
 					            </div>
 					          </div>
 					        </div>
 					</li>
 					<li>
-						  <div class="col-3 portfolio-item">
+						  <div class="portfolio-item">
 					          <div class="card h-50">
 					            <a href="blog1.html"><img class="card-img-top" src="placecard700x400.jpg" alt=""></a>
 					            <div class="card-body">
 					              <h4 class="card-title">
 					                <a href="blog1.html">Project 3</a>
 					              </h4>
-					              <p class="card-text black">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam viverra euismod odio, gravida pellentesque urna varius vitae.</p>
 					            </div>
 					          </div>
 					        </div>
 					</li>
 				</ul>
-				<ul id="tips2">
-				  <li>
-						  <div class="col-3">
-					          <div class="card h-50">
-					            <a href="blog1.html"><img class="card-img-top" src="placecard700x400.jpg" alt=""></a>
-					            <div class="card-body">
-					              <h4 class="card-title">
-					                <a href="blog1.html">Project 1</a>
-					              </h4>
-					              <p class="card-text black">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam viverra euismod odio, gravida pellentesque urna varius vitae.</p>
-					            </div>
-					          </div>
-					        </div>
-					</li>
-					<li>
-						  <div class="col-3">
-					          <div class="card h-50">
-					            <a href="blog1.html"><img class="card-img-top" src="placecard700x400.jpg" alt=""></a>
-					            <div class="card-body">
-					              <h4 class="card-title">
-					                <a href="blog1.html">Project 2</a>
-					              </h4>
-					              <p class="card-text black">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam viverra euismod odio, gravida pellentesque urna varius vitae.</p>
-					            </div>
-					          </div>
-					        </div>
-					</li>
-					<li>
-						  <div class="col-3">
-					          <div class="card h-50">
-					            <a href="blog1.html"><img class="card-img-top" src="placecard700x400.jpg" alt=""></a>
-					            <div class="card-body">
-					              <h4 class="card-title">
-					                <a href="blog1.html">Project 3</a>
-					              </h4>
-					              <p class="card-text black">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam viverra euismod odio, gravida pellentesque urna varius vitae.</p>
-					            </div>
-					          </div>
-					        </div>
-					</li>
-				</ul>
+				</div>
+				<div class="col-sm-4"><img class="d-none-900" style="height: 90%; padding-top:10px;" title="Curly bracket right" src="curly-right.png"/></div>
+				</div>
 		</section>
     <!-- Page Content -->
     <div class="container">
@@ -260,35 +223,9 @@
 		show(); setInterval(show,pause);
 		
 	};
-	this.randomtip2 = function(){
-	
-		var pause = 3000; // define the pause for each tip (in milliseconds) Feel free to make the pause longer so users can have time to read the tips :)
-		var length = $("#tips2 li").length; 
-		var temp = -1;		
-	
-		this.getRan = function(){
-			// get the random number
-			var ran = Math.floor(Math.random()*length) + 1;
-			return ran;
-		};
-		this.show = function(){
-			var ran = getRan();
-			// to avoid repeating tips we need to check 
-			while (ran == temp){
-				ran = getRan();
-			}; 
-			temp = ran;
-			$("#tips2 li").hide();	
-			$("#tips2 li:nth-child(" + ran + ")").fadeIn("fast");		
-		};
-		// initiate the script and also set an interval
-		show(); setInterval(show,pause);
-		
-	};
 	
 	$(document).ready(function(){	
 		randomtip();
-		randomtip2();
 	});
 	</script>
 	<script>HTML();</script>
