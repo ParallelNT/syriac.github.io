@@ -3,7 +3,6 @@
  * Copyright 2013-2017 Start Bootstrap
  * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-scrolling-nav/blob/master/LICENSE)
  */
-@import url(https://fonts.googleapis.com/css?family=Merriweather);
 
 .my-book-img{
 	max-width: 100%;
@@ -390,7 +389,7 @@
     top: 40%;
     left: 50%;
     transform: translate(-50%, -50%);
-	font-family: 'Merriweather', serif;
+	font-family: "Times New Roman", Times, serif;
 	font-size: 50px;
 	text-shadow: 5px 5px 15px black;
 }
@@ -901,7 +900,7 @@
 	position: absolute;
 	z-index: 990;
 	color: white;
-	font-family: 'Merriweather', serif;
+	font-family: "Times New Roman", Times, serif;
 	top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
@@ -1029,14 +1028,14 @@
 
 .footer-info div{
 	color: #fff;
-	font-family: 'Merriweather', serif;
+	font-family: "Times New Roman", Times, serif;
 	margin: auto 0;
 
 }
 
 .footer-info ul{
 	color: #fff;
-	font-family: 'Merriweather', serif;
+	font-family: "Times New Roman", Times, serif;
 	padding-left:20px;
 	text-align: left;
 }
@@ -1191,30 +1190,30 @@
 /*END OF SMALL CAROUSEL*/
 
 .index-body{
-	font-family: 'Merriweather', serif;
+	font-family: "Times New Roman", Times, serif;
 }
 
 .articles-body{
-	font-family: 'Merriweather', serif;
+	font-family: "Times New Roman", Times, serif;
 }
 
 .blog-body{
-	font-family: 'Merriweather', serif;
+	font-family: "Times New Roman", Times, serif;
 }
 
 .contact-body{
-	font-family: 'Merriweather', serif;
+	font-family: "Times New Roman", Times, serif;
 }
 
 .goodnews-body{
-	font-family: 'Merriweather', serif;
+	font-family: "Times New Roman", Times, serif;
 }
 
 /*GLOSSAY*/
 .glossary-body{
 	  color: #3a404d;
   background: #f8f9fb;
-  font-family: 'Merriweather', serif;
+  font-family: "Times New Roman", Times, serif;
 }
 
 .site-content {
@@ -1387,7 +1386,7 @@
 
 .white-merriweather{
 	color: white;
-	font-family: 'Merriweather', serif;
+	font-family: "Times New Roman", Times, serif;
 }
 
 .goodnews-container{
@@ -1470,7 +1469,7 @@
 	position: fixed;
 	left:0;
 	top:40%;
-	font-family: 'Merriweather', sans-serif;
+	font-family: "Times New Roman", Times, serif;
 	text-align:center;
 	padding: 10px;
 	color: #000;
@@ -1491,7 +1490,7 @@
 	position: absolute;
 	z-index: 999;
 	color: white;
-	font-family: 'Merriweather', serif;
+	font-family: "Times New Roman", Times, serif;
 	font-size: 50px;
 	text-shadow: 5px 5px 15px black;
 	top: 50%;
@@ -1546,7 +1545,7 @@
 
 /*CONTACT PAGE*/
 .contact-title{	
-	font-family: 'Merriweather', serif;
+	font-family: "Times New Roman", Times, serif;
 	margin: 0;
 	width: 100%;
 	background-color: #f8f9fa;
@@ -1633,7 +1632,7 @@ input[type="name"] {
   font-weight:700;
   margin-bottom:30px;
   color:#fff;
-  font-family: 'Merriweather', sans-serif;
+  font-family: "Times New Roman", Times, serif;
 }
 
 .contact-email{
@@ -1853,7 +1852,7 @@ section {
 }
 
 html {
-	font-family: sans-serif;
+	font-family: "Times New Roman", Times, serif;
 	line-height: 1.15;
 	-webkit-text-size-adjust: 100%;
 	-ms-text-size-adjust: 100%;
@@ -2234,7 +2233,7 @@ h6 {
 }
 
 .lead {
-	font-size: 1.25rem;
+	font-size: 1.35rem;
 	font-weight: 400
 }
 
@@ -2252,7 +2251,7 @@ h6 {
 
 @media (max-width: 990px){
 	.lead {
-	font-size: 1.00rem;
+	font-size: 1.20rem;
 	}
 }
 
