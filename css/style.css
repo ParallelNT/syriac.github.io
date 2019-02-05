@@ -4,6 +4,7 @@
  * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-scrolling-nav/blob/master/LICENSE)
  */
 
+
 .my-book-img{
 	max-width: 100%;
     height: auto;
@@ -1541,18 +1542,25 @@
 }
 
 .card-img-left img{
-	hieght: 200px; 
-	width: 200px;
+	hieght: 220px; 
+	width: 280px;
 	background-color:#800000; 
 	position: absolute;
+	border-radius: 5px;
 }
 
 .card-messsage {
-	padding-left: 210px; 
+	padding-left: 290px; 
 	padding-right: 10px; 
-	padding-top:10px; 
-	height:200px; 
-	margin:auto;
+	padding-top:20px; 
+	height:220px; 
+}
+
+.read-more{
+	position:absolute;
+	right:0;
+	bottom:0;
+	padding: 20px
 }
 
 .c--anim-btn span {
@@ -1567,9 +1575,9 @@
 }
 
 .c--anim-btn {
-  height: 200px;
+  height: 220px;
   overflow: hidden;
-  width: 100%;
+  width: 98%;
   background-color: rgba(0, 0, 0, 0.0);
   position: absolute;
   z-index: 100
