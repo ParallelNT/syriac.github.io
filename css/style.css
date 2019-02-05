@@ -1536,6 +1536,56 @@
 /*END OF IMGs TITLE carousel*/
 
 /*ARTICLES*/
+.overflow-x-hide{
+	overflow-x:hidden
+}
+
+.card-img-left img{
+	hieght: 200px; 
+	width: 200px;
+	background-color:#800000; 
+	position: absolute;
+}
+
+.card-messsage {
+	padding-left: 210px; 
+	padding-right: 10px; 
+	padding-top:10px; 
+	height:200px; 
+	margin:auto;
+}
+
+.c--anim-btn span {
+  color: white;
+  text-decoration: none;
+  text-align: center;
+  display: block;
+}
+
+.c--anim-btn, .c-anim-btn {
+  transition: 0.5s;     
+}
+
+.c--anim-btn {
+  height: 200px;
+  overflow: hidden;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.0);
+  position: absolute;
+  z-index: 100
+}
+
+.c-anim-btn{
+  margin-top: 12em;   
+}
+
+.c--anim-btn:hover .c-anim-btn{
+  margin-top: 3.5em
+}
+.c--anim-btn:hover{
+  background-color: rgba(128, 0, 0, 0.2)
+}
+
 .portfolio-item {
   margin-bottom: 30px;
 }
