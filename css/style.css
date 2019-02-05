@@ -1217,7 +1217,9 @@
 }
 
 .site-content {
-  overflow: hidden;
+  
+  overflow-x:hidden;
+  height:100%
 }
 
 .py-4 {
