@@ -1542,7 +1542,7 @@
 }
 
 .card-img-left img{
-	hieght: 220px; 
+	height: 210px; 
 	width: 280px;
 	background-color:#800000; 
 	position: absolute;
@@ -1552,15 +1552,23 @@
 .card-messsage {
 	padding-left: 290px; 
 	padding-right: 10px; 
-	padding-top:20px; 
-	height:220px; 
+	padding-top:10px; 
+	height:210px;
+	overflow: hidden
 }
 
-.read-more{
+.white-bg-btn{
+	text-decoration: none; 
+	color:#000000;
 	position:absolute;
-	right:0;
-	bottom:0;
-	padding: 20px
+	padding: 20px;
+	padding-left:10px;
+	padding: 8px;
+	border:solid #000000 2px;
+	border-radius:2px;
+	right:28px;
+	margin-top:-50px;	
+	display: block
 }
 
 .c--anim-btn span {
@@ -1575,9 +1583,10 @@
 }
 
 .c--anim-btn {
-  height: 220px;
+  height: 210px;
   overflow: hidden;
-  width: 98%;
+  width: 96%;
+  border-radius:5px;
   background-color: rgba(0, 0, 0, 0.0);
   position: absolute;
   z-index: 100
@@ -1600,6 +1609,65 @@
 
 .pagination {
   margin-bottom: 30px;
+}
+
+@media screen and (max-width: 770px){
+		.card-img-left img{
+		height: 150px; 
+		width: 200px;
+	}
+	
+	.card-messsage {
+	padding-left: 210px; 
+	height: 150px
+}
+
+.c--anim-btn {
+  height: 150px;
+}
+
+.c--anim-btn:hover .c-anim-btn{
+  margin-top: 2em
+}
+
+.article-card-title{
+	font-size:20px
+}
+.c--anim-btn, .c-anim-btn {
+  transition: 0.2s;     
+}
+
+}
+
+@media screen and (max-width: 450px){
+		.card-img-left img{
+		height: 110px; 
+		width: 145px;
+	}
+	
+	.card-messsage {
+	padding-left: 155px; 
+	height: 110px
+}
+
+.c--anim-btn {
+  height: 110px;
+}
+
+.c--anim-btn:hover .c-anim-btn{
+  margin-top: .5em
+}
+
+.article-card-title{
+	font-size:20px
+}
+
+.white-bg-btn{
+	display: none;
+}
+.c--anim-btn, .c-anim-btn {
+  transition: 0.2s;     
+}
 }
 /*END OF ARTICLE*/
 
@@ -2872,6 +2940,15 @@ pre code {
 		flex: 0 0 75%;
 		max-width: 75%
 	}
+	
+	@media screen and (max-width: 995px){
+		.col-sm-9 {
+			-ms-flex: 0 0 100% !important;
+			flex: 0 0 100% !important;
+			max-width: 100% !important
+		}
+	}
+	
 	.col-sm-10 {
 		-ms-flex: 0 0 83.333333%;
 		flex: 0 0 83.333333%;
