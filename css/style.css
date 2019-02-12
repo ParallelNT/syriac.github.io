@@ -1537,9 +1537,17 @@
 /*END OF IMGs TITLE carousel*/
 
 /*ARTICLES*/
+
+.affix-sticky{
+	position: -webkit-sticky; 
+	position: sticky;
+	top: 10px
+}
+
 .overflow-x-hide{
 	overflow-x:hidden
 }
+
 
 .card-img-left img{
 	height: 210px; 
@@ -1585,11 +1593,12 @@
 .c--anim-btn {
   height: 210px;
   overflow: hidden;
-  width: 96%;
+  width: 280px;
   border-radius:5px;
   background-color: rgba(0, 0, 0, 0.0);
   position: absolute;
-  z-index: 100
+  z-index: 100;
+  font-size:40px
 }
 
 .c-anim-btn{
@@ -1597,7 +1606,7 @@
 }
 
 .c--anim-btn:hover .c-anim-btn{
-  margin-top: 3.5em
+  margin-top: 0.5em
 }
 .c--anim-btn:hover{
   background-color: rgba(128, 0, 0, 0.2)
@@ -1624,10 +1633,12 @@
 
 .c--anim-btn {
   height: 150px;
+  width: 200px;
+  font-size:30px;
 }
 
 .c--anim-btn:hover .c-anim-btn{
-  margin-top: 2em
+  margin-top: .5em
 }
 
 .article-card-title{
@@ -1652,10 +1663,12 @@
 
 .c--anim-btn {
   height: 110px;
+  width: 145px;
+  font-size:25px;
 }
 
 .c--anim-btn:hover .c-anim-btn{
-  margin-top: .5em
+  margin-top: 0em
 }
 
 .article-card-title{
@@ -2947,6 +2960,10 @@ pre code {
 			flex: 0 0 100% !important;
 			max-width: 100% !important
 		}
+		.hide-995{
+		display:none;
+		}
+		
 	}
 	
 	.col-sm-10 {
