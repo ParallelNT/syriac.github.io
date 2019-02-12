@@ -3,7 +3,11 @@
  * Copyright 2013-2017 Start Bootstrap
  * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-scrolling-nav/blob/master/LICENSE)
  */
-
+.title-block{
+	background-color:rgba(0,0,0,0.3);
+	padding: 10px;
+	border-radius:5px
+}
 
 .my-book-img{
 	max-width: 100%;
@@ -1644,6 +1648,9 @@
 .article-card-title{
 	font-size:20px
 }
+
+
+
 .c--anim-btn, .c-anim-btn {
   transition: 0.2s;     
 }
