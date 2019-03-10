@@ -18,21 +18,39 @@
 	<meta property="og:image" content="root-img/articlebiblepic.jpg" />
 	<meta name="generator" content="Notepad ++">
 	<meta name="copyright" content="Steve Ulrich - Syriac Parallel New Testament" />
-	<link rel="shortcut icon" type="image/x-icon" href="root-img/cross.ico" />
+	<link rel="shortcut icon" type="image/x-icon"   href="root-img/cross.ico" />
 
 	<!--Bootstrap core CSS & Reg CSS & font awesome-->
-	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
-    <link href="css/style.css" rel="stylesheet">
+	<link   href="css/fa/all.min.css" type="text/css" rel="stylesheet">
+    <link   href="css/style.css" rel="stylesheet">
     <script src="js/jquery.js"></script>
 	<script src="js/footer.js"></script>
+	<script>
+	$(document).ready(function(){
+	  $("#myInput").on("keyup", function() {
+	    var value = $(this).val().toLowerCase();
+	    $("#myList a").filter(function() {
+	      $(this).toggle($(this).text().toLowerCase().indexOf(value) > -1)
+	    });
+	  });
+	});
+	$(document).ready(function(){
+		  $("#search").on("keyup", function() {
+		    var value = $(this).val().toLowerCase();
+		    $("#mySearch a").filter(function() {
+		      $(this).toggle($(this).text().toLowerCase().indexOf(value) > -1)
+		    });
+		  });
+		});
+	</script>
   </head>
 
   <body id="page-top" class="index-body">
   <div class="wrapper" id="myAnchor">
-  <a href="#myAnchor" class="go-top"><i class="fa fa-chevron-up"></i></a>
+  <a    href="#myAnchor" class="go-top"><i class="fa fa-chevron-up"></i></a>
 	
 	 <!-- Page Heading -->
-	 <div class="top-margin"><p class="text-white"> Turn on Java Script to see page. :)</p></div>
+	 <div class="top-margin"></div>
 		<section class="contact-title">
 		  <div class="text-center">
 			<div class="black">
@@ -48,10 +66,10 @@
 				  <li>
 						  <div class="portfolio-item">
 					          <div class="card h-50">
-					            <a href="articles/jwetheridge.html"><img class="card-img-top" src="root-img/placecard700x400.jpg" alt="John Wesley Etheridge Picture">
+					            <a   href="jwetheridge.html"><img class="card-img-top" src="root-img/syriacwritting.jpg" alt="John Wesley Etheridge Picture">
 					            <div class="card-body">
 					              <h4 class="card-title">
-					                Syriac Bible Translator: <br/> J.W. Etheridge Biography - Life & Death
+					                <a   href="jwetheridge.html">Syriac Bible Translator: <br/> J.W. Etheridge Biography</a>
 					              </h4>
 					            </div>
 					            </a>
@@ -61,10 +79,10 @@
 					<li>
 						  <div class="portfolio-item">
 					          <div class="card h-50">
-					            <a href="blog1.html"><img class="card-img-top" src="root-img/placecard700x400.jpg" alt=""></a>
+					            <a   href="jamesmurdock.html"><img class="card-img-top" src="root-img/syriacwritting.jpg" alt=""></a>
 					            <div class="card-body">
 					              <h4 class="card-title">
-					                <a href="blog1.html">Project 2</a>
+					                <a   href="jamesmurdock.html">Syriac Bible Translator: <br/> James Murdock & Translation of The Syriac Peshitta</a>
 					              </h4>
 					            </div>
 					          </div>
@@ -73,10 +91,10 @@
 					<li>
 						  <div class="portfolio-item">
 					          <div class="card h-50">
-					            <a href="blog1.html"><img class="card-img-top" src="root-img/placecard700x400.jpg" alt=""></a>
+					            <a   href="georgelamsa.html"><img class="card-img-top" src="root-img/syriacwritting.jpg" alt=""></a>
 					            <div class="card-body">
 					              <h4 class="card-title">
-					                <a href="blog1.html">Project 3</a>
+					                <a   href="georgelamsa.html">Syriac Bible Translator: <br/> George M. Lamsa Biography, Books, Bible</a>
 					              </h4>
 					            </div>
 					          </div>
@@ -108,11 +126,37 @@
  		
 		<div class="w-100 card-img-left">
 		  <div class="card-block">
-		  	<a href="articles/jwetheridge.html">
+		  	<a   href="jwetheridge.html">
 			<div class="c--anim-btn list-inline-item"><span class="c-anim-btn"><br/></span><span>Discover &raquo;</span></div>
-			<img src="root-img/placecard700x400.jpg" class="list-inline-item"/>
+			<img src="root-img/syriacwritting.jpg" class="list-inline-item"/>
 			<div class="card-messsage">
-			    <h3 class="article-card-title">Syriac Bible Translator: J.W. Etheridge Biography - Life & Death</h3>
+			    <h3 class="article-card-title">Syriac Bible Translator: J.W. Etheridge Biography</h3>
+		 	</div>
+		 	<div class="white-bg-btn">Read More &raquo;</div>
+		 	</a>
+		  </div>
+		</div>
+		<hr/>
+		<div class="w-100 card-img-left">
+		  <div class="card-block">
+		  	<a   href="jamesmurdock.html">
+			<div class="c--anim-btn list-inline-item"><span class="c-anim-btn"><br/></span><span>Explore &raquo;</span></div>
+			<img src="root-img/syriacwritting.jpg" class="list-inline-item"/>
+			<div class="card-messsage">
+			    <h3 class="article-card-title">Syriac Bible Translator: James Murdock & Translation of The Syriac Peshitta</h3>
+		 	</div>
+		 	<div class="white-bg-btn">Read More &raquo;</div>
+		 	</a>
+		  </div>
+		</div>
+		<hr/>
+		<div class="w-100 card-img-left">
+		  <div class="card-block">
+		  	<a   href="georgelamsa.html">
+			<div class="c--anim-btn list-inline-item"><span class="c-anim-btn"><br/></span><span>More &raquo;</span></div>
+			<img src="root-img/syriacwritting.jpg" class="list-inline-item"/>
+			<div class="card-messsage">
+			    <h3 class="article-card-title">Syriac Bible Translator: <br/> George M. Lamsa Biography, Books, Bible</h3>
 		 	</div>
 		 	<div class="white-bg-btn">Read More &raquo;</div>
 		 	</a>
@@ -123,13 +167,50 @@
 		</div>
 		<br/>
 		<div class="col-sm-3 hide-995">
-			<div class="card affix-sticky">
-			    <div class="card-header lead">Articles: Quick Links</div>
-			    <div class="card-body lead">
-			    Content
-			    
+		
+			<div class="card" style="height:400px;overflow:hidden;">
+			    	<div class="card-header lead">Articles
+				    <input class="form-control mr-sm-2" id="search" type="text" placeholder="Search...">
+			    	</div>
+			    	 <div class="card-body lead">
+			    <ul id="mySearch">
+			     	<a   href="jwetheridge.html"><li style="list-style-type: circle;">J.W. Etheridge Biography</li></a>
+			    	<a   href="jamesmurdock.html"><li style="list-style-type: circle;">James Murdock & Translation of The Syriac Peshitta</li></a>
+					<a   href="georgelamsa.html"><li style="list-style-type: circle;">George M. Lamsa Biography, Books, Bible</li></a>
+			    </ul>
+			    <div class="card-body-foot"></div>
 			    </div> 
 		  	</div>
+		<br/>
+			<div class="card">
+			    <div class="card-header lead">Quick Links
+			    <input class="form-control mr-sm-2" id="myInput" type="text" placeholder="Search..."></div>
+			    <div class="card-body lead">
+			    <b>Syriac Resources:</b>
+			    <ul id="myList">
+				    <a   href="https://www.doaks.org/"><li style="list-style-type: circle;">Dumbarton Oaks</li></a>
+				    <a   href="https://dukhrana.com/lexicon/search.php"><li style="list-style-type: circle;">Dukhrana Lexicon</li></a>
+				    <a   href="https://bethmardutho.org/"><li style="list-style-type: circle;">Syriac Institute</li></a>
+				    <a   href="http://scrollandscreen.com/syriac/index.htm"><li style="list-style-type: circle;">Syriac Tools</li></a>
+			    </ul>
+			     <b>More:</b>
+			    <ul id="myList">
+			    		<a   href="index.html#whatsnew"><li style="list-style-type: circle;">What's New?</li></a>
+						<a   href="index.html#testimonials"><li style="list-style-type: circle;">Testimonials</li></a>
+						<a   href="index.html#newcontent"><li style="list-style-type: circle;">New Content</li></a>
+						<a   href="2peter.html"><li style="list-style-type: circle;">2nd Peter</li></a>
+						<a   href="index.html#about"><li style="list-style-type: circle;">About Us</li></a>
+						<a   href="biography.html"><li style="list-style-type: circle;">Website Author</li></a>
+						<a   href="translators.html"><li style="list-style-type: circle;">Syriac Translators</li></a>
+						<a   href="books.html"><li style="list-style-type: circle;">Syriac Resources</li></a>
+						<a   href="contact.html#messenger"><li style="list-style-type: circle;">Instant Message</li></a>
+						<a   href="contact.html#contact"><li style="list-style-type: circle;">Contact Us</li></a>
+						<a   href="dictionary.html"><li style="list-style-type: circle;">Dictionary</li></a>
+						<a   href="goodnews.html"><li style="list-style-type: circle;">Good News</li></a>
+			    </ul>
+			    </div> 
+			    
+		  	</div>		  	
 		</div>
 		
       </div><!-- /.row -->
@@ -139,22 +220,22 @@
       <!-- Pagination -->
       <ul class="pagination justify-content-center">
         <li class="page-item">
-          <a class="page-link" href="#" aria-label="Previous">
+          <a class="page-link"   href="#" aria-label="Previous">
             <span aria-hidden="true">&laquo;</span>
             <span class="sr-only">Previous</span>
           </a>
         </li>
         <li class="page-item">
-          <a class="page-link" href="#">1</a>
+          <a class="page-link"   href="#">1</a>
         </li>
         <li class="page-item">
-          <a class="page-link" href="#">2</a>
+          <a class="page-link"   href="#">2</a>
         </li>
         <li class="page-item">
-          <a class="page-link" href="#">3</a>
+          <a class="page-link"   href="#">3</a>
         </li>
         <li class="page-item">
-          <a class="page-link" href="#" aria-label="Next">
+          <a class="page-link"   href="#" aria-label="Next">
             <span aria-hidden="true">&raquo;</span>
             <span class="sr-only">Next</span>
           </a>
